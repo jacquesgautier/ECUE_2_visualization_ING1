@@ -2,6 +2,12 @@
 
 ## Présentation de MAGRIT
 
+[MAGRIT](https://magrit.cnrs.fr/) est une interface de cartographie, sous format web, opensource, produite par l'UAR (Unité d'Appui et de Recherche) [RIATE](https://riate.cnrs.fr/).
+
+L'objectif de l'interface est de permettre de produire facilement différents types de cartes thématiques, pouvant faire appel à différentes approches et styles, sans avoir de compétences en SIG à priori.
+
+![Alternative text](magrit_tuto.png "Exemple de création de carte sous MAGRIT")
+
 ## Représenter des donnnées quantitatives dans une carte
 
 notes: faire le lien entre comment elles sont appelées chez bertin et chez munzner
