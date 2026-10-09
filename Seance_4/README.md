@@ -8,63 +8,93 @@ L'objectif de l'interface est de permettre de produire facilement différents ty
 
 ![Alternative text](magrit_tuto.png "Exemple de création de carte sous MAGRIT")
 
-## Représenter des donnnées quantitatives dans une carte
+## Rappel sur les différents types de données
 
-notes: faire le lien entre comment elles sont appelées chez bertin et chez munzner
+La sémiologie graphique définit quatre types de données:
+- les données quantitatives, pouvant être chiffrées, et parmi elles:
+    - les données quantitatives absolues, ou de stock, décrivant des valeurs quantitatives brutes
+    - les données quantitatives relatives, décrivant des valeurs normalisées (par exemple, des valeurs de densité, de ratio)
+- les données qualitatives, ne pouvant pas être chiffrées, et parmi elles:
+    - les données qualitatives ordinales, décrivant différentes catégories ordonnées
+    - les données qualitatives nominales, décrivant différentes catégories non-ordonnées.
 
-### Données quantitatives brutes: l'usage de la taille des symboles dans les représentations cartographiques
+Ces différents types de données peuvent être représentés par différentes variables visuelles
 
-MAGRIT: carte monde population, nuage de points
-			théorique: pourquoi pas de carte de couleur
-			théorique: pourquoi des cercles proportionnels. On cherche à passer par de la taille. on représente de la donnée par pays, représentés par des polygones. C'est une marque surfacique, on ne peut pas jouer sur la taille: on passe par un symbole dérivé.
-			théorique: et si on faisait autrement: nombre de symbole; cartogramme
+![Alternative text](zanin_tremolo.png "Zanin et Trémolo, 2003")
+
+La taxonomie de Munzner classe les variables visuelles selon qu'elles représentent une magnitude (données quantitatives ou qualitatives ordonnées) ou une identité (données qualitatives nominales).
+
+![Alternative text](munzner.png "Munzner, 2014")
+
+## Représenter des donnnées quantitatives absolues dans une carte
+
+### Cartes en symboles proportionnels
+
+#### Au moyen du jeu de données XX, produisez une carte en symboles proportionnels, représentant la population mondiale selon les différents pays
+
+*Par quel canal visuel représente-t'on l'information?*
+
+*Pourquoi ne passe-t'on pas par de la couleur?*
+
+*Pour chaque individu du jeu de données, le symbole portant l'information sur la population est différent du symbole représentant la composante spatiale de l'individu. Pourquoi utilise-t'on un deuxième symbole?*
 
 ### Au dela des cartes en symboles proportionnels
 
-cartogramme
--> CM cartogramme et anamorphose
+#### Au moyen du jeu de données XX, produisez deux cartogrammes représentant la population mondiale, un selon l'algorithme d'Olson, un autre selon l'algorithme de Gastner, Seguy et More.
 
--> influence de la projection
+*Par quel canal visuel représente-t'on l'information? Au moyen de quel symbole*
 
-### Choroplèthes
+*Décrivez ce qui différencie les deux approches, et quels sont leur avantages et inconvénients*
 
-#### Le principe
+## Carte choroplèthes
 
-CM carte choroplèthe: influence de la palette de couleur et de la méthode de classificaiton
+### Le principe
 
-#### Représenter des densités par de la couleur
+Une carte choroplèthe est une carte où la couleur (ou un autre figuré surfaçique) est utiliser pour représenter des données quantitatives, relatives à une division, usuellement irrégulière, de l'espace. 
 
-- influence de la classification
-		MAGRIT: calcul de la densité de pop
-			théorique: acceptable de mapper de la densité (pop/km²; valeur/hab) sur une carte avec de la couleur, et pas de valeur brute: 2 raisons
-				d'une part, la taille est le plus efficace des 2 canaux
-				d'autre part, dans des données stats rattachées à des grilles geospatiales irrégulières, la valeur est souvent corrélée à la surface de la cellule: plus un pays est grand, plus il est susceptible d'être peuplé, et plus un pays est peuplé, plus une valeur corrélée à la pop peut être grandes
-					si on représente une quantité brute par de la couleur, une grande région peut avoir la même couleur que plein de petites régions formant un ensemble bcp plus peuplé
-					influence de la grille choisie, MAUP qui sera vu plus tard, dans 2 semaines
+![Alternative text](Choropleth_Map.png "Carte Choroplèthe")
 
-#### Influence de la méthode de classification
+### Représenter des densités par de la couleur
 
-MAGRIT: carte de densité avec plusieurs modes de classification
-			théorique: les différents modes de classif, et ses influences. comment bien choisir sa classif: bon tips: regarder la distribution; privilégier jenks; pas trop de classes; quantile ou quantize: dépend du contexte; parfois, seuils manuel
-		- influence de la palette de couleur
-		
+#### Au moyen du jeu de données XX, produisez une carte choroplèthe représentant la population brute par pays.
 
-#### Influence de la palette de couleur
+*Si vous n'y arrivez pas, pourquoi selon vous?*
 
-théorique: influence de la palette: plusieurs teinte pour plus de classe; lien avec ce qu'il y a au dessus
-		magrit: faire utiliser veridis
+*Pour quelle variable, relative à la population, pouvez-vous produire une carte choroplèthe?*
 
-- influence de la palette de couleur
-		théorique: influence de la palette: plusieurs teinte pour plus de classe; lien avec ce qu'il y a au dessus
-		magrit: faire utiliser veridis
-		MAGRIT: carte pop + birth rate
-			comment représenter la couleur: sur le polygone, sur le symbole: effet, discuter de ça
-			quelle paltte de couleur utiliser
+*Pensez vous que l'utilisation de cercles proportionnels seraient une bonne approche pour représenter cette variable? Pourquoi?*
 
-- cyclique
-		MAGRIT trouver données cucliue: montrer palette cyclique
+### Influence de la méthode de classification
 
-## Représenter des données non-ordonnées dans MAGRIT
+#### Au moyen du jeu de données XX, produisez une carte choroplèthe représentant la densité de population par pays, au moyen d'une classification en quantile, en intervalle égaux, et en utilisant l'approche des seuils naturels de Jenks.
+
+*Au moyen du menu de symbologie avancée (icone rouage dans le menu de choix du mode de classification), décrivez la différence entre ces différentes approches, et choisissez l'approche vous semblant la plus appropriée*
+
+*Choisissez l'approche vous semblant la plus appropriée sur les données*
+
+### Influence de la palette de couleur
+
+#### Au moyen du jeu de données XX, produisez une carte choroplèthe représentant le taux de natalité par pays.
+
+*La palette de couleur précédemment utilisée vous parait-elle appropriée? Sinon changez de palette de couleur*
+
+#### Combinez dans une carte la représentation de la population et la représentation du taux de natalité.
+
+## Représentez des discontinuités
+
+#### Au moyen de l'option correspondante, représentez les différentiels de PIB par habitants entre pays. Ajoutez cette information à la carte précédente.
+
+*Quel canal visuel est utilisé ici?*
+
+## Influence de la projection utilisé
+
+#### Changez la projection de la carte pour une projection de Mercator.
+
+*Quelle différence voyez-vous avec la projection précédente. Revenez à la projection précédente.*
+
+#### Au moyen de l'outil de mise en page, finalisez votre carte en organisant la légende, en ajoutant titre, échelle, source et orientation.
+
+## Représenter des données non-ordonnées
 		
 carte choroplèthe catégorisée
 	- nominal
