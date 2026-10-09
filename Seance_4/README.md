@@ -80,13 +80,13 @@ Une carte choroplèthe est une carte où la couleur (ou un autre figuré surfaç
 
 #### Combinez dans une carte la représentation de la population et la représentation du taux de natalité.
 
-## Représentez des discontinuités
+## Représentez des discontinuités spatiales
 
 #### Au moyen de l'option correspondante, représentez les différentiels de PIB par habitants entre pays. Ajoutez cette information à la carte précédente.
 
 *Quel canal visuel est utilisé ici?*
 
-## Influence de la projection utilisé
+## Influence de la projection utilisée
 
 #### Changez la projection de la carte pour une projection de Mercator.
 
@@ -95,7 +95,9 @@ Une carte choroplèthe est une carte où la couleur (ou un autre figuré surfaç
 #### Au moyen de l'outil de mise en page, finalisez votre carte en organisant la légende, en ajoutant titre, échelle, source et orientation.
 
 ## Représenter des données non-ordonnées
-		
+
+faire choroplèthe catégorielle sur données geol
+
 carte choroplèthe catégorisée
 	- nominal
 		MAGRIT carte géol: influence de la palette catégoriel
@@ -105,11 +107,17 @@ carte choroplèthe catégorisée
 
 ## Création de cartes choroplèthes avec Kepler.gl
 
+carte densité IDF
+
 ## Création de cercles proportionnels avec Kepler.gl	
+
+carte cercle prop IDF (fournir les points dna sla carte, mais montrer qu'on a un probleme : rayon)
 
 ## Création de cartes en 2D+1 
 
+montrer le pour et le contre, et l'intéret du carroyage
 
-##### garder le réseau pour QGIS pour faire du glyphes
-
+garder le réseau pour QGIS pour faire du glyphes
+faire le cyclique dans QGIS
+montrer l'influence de la palette pour le nombre de couleur dans QGIS
 
