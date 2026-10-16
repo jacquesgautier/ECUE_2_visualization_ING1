@@ -120,4 +120,4 @@ montrer le pour et le contre, et l'intéret du carroyage
 garder le réseau pour QGIS pour faire du glyphes
 faire le cyclique dans QGIS
 montrer l'influence de la palette pour le nombre de couleur dans QGIS
-
+=> pe pas
