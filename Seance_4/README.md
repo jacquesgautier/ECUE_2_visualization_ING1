@@ -26,11 +26,11 @@ Selon les règles de la sémiologie graphique de Bertin, la représentation grap
 - relation d'ordre: deux symboles sur la carte représentent pour l'un une route principale, pour l'autre une route secondaire.  On peut alors utiliser un dégradé de niveaux de gris.
 - des quantités de différentes proportions: deux symboles sur la carte représentent pour l'un une route où passent 500 voitures par jour, pour l'autre une route où passent 1000 voiture par jour, soit une deux fois plus.  On peut alors utiliser la taille des symboles. 
 
-![Alternative text](img\zanin_tremolo.png "Zanin et Trémolo, 2003")
+![Alternative text](img/zanin_tremolo.png "Zanin et Trémolo, 2003")
 
 La taxonomie de Munzner reconnait deux types d'attributs pouvant être représenté par des canaux visuels/des variables visuelles. Les variables visuelles sont donc classées selon qu'elles représentent une magnitude (données quantitatives ou qualitatives ordonnées, représentation d'un ordre où d'une proportion entre valeurs quantitatives) ou une identité (données qualitatives nominales, représentation d'une relation d'association ou de différenciation).
 
-![Alternative text](img\munzner.png "Munzner, 2014")
+![Alternative text](img/munzner.png "Munzner, 2014")
 
 ## Représenter des donnnées quantitatives absolues dans une carte
 
@@ -40,7 +40,7 @@ La taxonomie de Munzner reconnait deux types d'attributs pouvant être représen
 
 Après avoir importer vos données au moyen de l'onglet dédié, Vous pouvez choisir parmi différentes approches pour représenter vos données en cliquant sur le symbole décrivant une cible, dans l'onglet gestion de couches.
 
-![Alternative text](img\magrit_interface.png "Onglet gestion de couches de MAGRIT")
+![Alternative text](img/magrit_interface.png "Onglet gestion de couches de MAGRIT")
 
 *Par quel canal visuel représente-t'on l'information?*
 
@@ -62,7 +62,7 @@ Après avoir importer vos données au moyen de l'onglet dédié, Vous pouvez cho
 
 Une carte choroplèthe est une carte où la couleur (ou un autre figuré surfaçique) est utilisée pour représenter des données quantitatives relatives à une division, usuellement irrégulière, de l'espace. 
 
-![Alternative text](img\Choropleth_Map.png "Carte Choroplèthe")
+![Alternative text](img/Choropleth_Map.png "Carte Choroplèthe")
 
 ### Représenter des densités par de la couleur
 
@@ -81,7 +81,7 @@ Une carte choroplèthe est une carte où la couleur (ou un autre figuré surfaç
 Ouvrez le menu de symbologie avancée (icone rouage dans le menu de choix du mode de discrétisation, voire figure ci-dessous).
 Choisissez le mode de discrétisation que vous souhaitez.
 
-![Alternative text](img\discretisation.png "Choix du mode de discrétisation pour une carte choroplèthe. Le bouton pour ouvrir le menu de symbologie avancée est à droite")
+![Alternative text](img/discretisation.png "Choix du mode de discrétisation pour une carte choroplèthe. Le bouton pour ouvrir le menu de symbologie avancée est à droite")
 
 *Au moyen de l'histogramme du menu de symbologie avancée, décrivez la différence entre ces différentes approches.* 
 
@@ -129,7 +129,7 @@ Pour chaque information, utilisez deux couches jouant chacune sur une variable v
 
 L'objectif de l'interface est de permettre de produire facilement différents types de géovisualisations, incluant des représentations animées et 3D, sans compétences informatiques. 
 
-![Alternative text](img\kepler.png "Interface de Kepler.gl")
+![Alternative text](img/kepler.png "Interface de Kepler.gl")
 
 ## Création de cartes choroplèthes avec Kepler.gl
 
@@ -137,7 +137,7 @@ L'objectif de l'interface est de permettre de produire facilement différents ty
 
 Dans le menu de gauche, dépliez le sous-menu correspondant à la couche créée lors de l'import de vos données. Explorez les paramètres de manière à représenter la densité de population par de la couleur, en utilisant une discrétisation en quantile et une palette de couleur Veridis.
 
-![Alternative text](img\kepler_menu.png "Paramètres d'une couche dans l'interface de Kepler.gl")
+![Alternative text](img/kepler_menu.png "Paramètres d'une couche dans l'interface de Kepler.gl")
 
 ## Création de cartes en cercles proportionnels avec Kepler.gl	
 
@@ -157,7 +157,7 @@ Explorez les paramètres de la nouvelle couche de manière à représenter la po
 
 Dans le menu à droite, modifiez le mode de vue pour choisir une carte 3D.
 
-![Alternative text](img\viewmode.png "Différents modes de vues dans Kepler.gl")
+![Alternative text](img/viewmode.png "Différents modes de vues dans Kepler.gl")
 
 *Quel canal visuel est utilisez ici pour représenter la population? Vous parait-il efficace et pourquoi?*
 
