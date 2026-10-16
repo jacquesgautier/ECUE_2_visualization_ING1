@@ -8,7 +8,7 @@ Le but de cet exercice est d'illustrer plusieurs concepts vus en cours sur la vi
 
 L'objectif de l'interface est de permettre de produire facilement différents types de cartes thématiques, pouvant faire appel à différentes approches et styles, sans avoir de compétences en SIG à priori.
 
-![Alternative text](img\magrit_tuto.png "Exemple de création de carte sous MAGRIT")
+![Alternative text](.\img\magrit_tuto.png "Exemple de création de carte sous MAGRIT")
 
 ## Rappel sur les différents types de données et leurs relations avec l'utilisation de symboles graphiques.
 
