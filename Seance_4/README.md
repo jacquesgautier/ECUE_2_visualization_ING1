@@ -36,7 +36,7 @@ La taxonomie de Munzner reconnait deux types d'attributs pouvant être représen
 
 ### Cartes en symboles proportionnels
 
-#### Au moyen du jeu de données XX, produisez une carte en symboles proportionnels, représentant la population mondiale selon les différents pays.
+#### Au moyen du jeu de données [suivant](data/world.geojson), produisez une carte en symboles proportionnels, représentant la population mondiale selon les différents pays (POP_2023).
 
 Après avoir importer vos données au moyen de l'onglet dédié, Vous pouvez choisir parmi différentes approches pour représenter vos données en cliquant sur le symbole décrivant une cible, dans l'onglet gestion de couches.
 
@@ -50,7 +50,7 @@ Après avoir importer vos données au moyen de l'onglet dédié, Vous pouvez cho
 
 ### Au dela des cartes en symboles proportionnels
 
-#### Au moyen du jeu de données XX, produisez deux cartogrammes représentant la population mondiale: un selon l'algorithme d'Olson, un autre selon l'algorithme de Gastner, Seguy et More.
+#### Produisez deux cartogrammes représentant la population mondiale: un selon l'algorithme d'Olson, un autre selon l'algorithme de Gastner, Seguy et More.
 
 *Par quel canal visuel représente-t'on l'information? Au moyen de quel symbole?*
 
@@ -66,17 +66,17 @@ Une carte choroplèthe est une carte où la couleur (ou un autre figuré surfaç
 
 ### Représenter des densités par de la couleur
 
-#### Au moyen du jeu de données XX (jeu de données population, densité de population, PIB, et taux de natalités par pays à importer), produisez une carte choroplèthe représentant la population brute par pays.
+#### Au moyen du jeu de données précèdent, produisez une carte choroplèthe représentant la population brute par pays.
 
 *Si vous n'y arrivez pas, pourquoi selon vous? Modifiez le typage des champs de la couche correspondante, en appuyant sur le symbole "T" dans l'onglet de gestion de couche, puis retentez de créer cette carte choroplèthe (ce n'est pas toutefois pas une bonne façon de procéder)*
 
-*Pour quelle variable, relative à la population, pouvez-vous produire une carte choroplèthe?*
+*Pour quel attribut, relatif à la population, pouvez-vous produire une carte choroplèthe?*
 
 *Pensez vous que l'utilisation de cercles proportionnels seraient une bonne approche pour représenter cette nouvelle variable? Pourquoi? Modifiez le typage des champs de la couche correspondante de manière à créer une carte en cercles proportionnels et tentez l'experience.*
 
 ### Influence de la méthode de classification
 
-#### Au moyen du jeu de données XX (jeu de données population, PIB,  et densité par pays à importer), produisez une carte choroplèthe représentant la densité de population par pays, au moyen d'une classification en quantile, en intervalle égaux, et en utilisant l'approche des seuils naturels de Jenks.
+#### Produisez une série de cartes choroplèthes représentant la variable préalablement identifiée, au moyen d'une classification en quantile, en intervalle égaux, et en utilisant l'approche des seuils naturels de Jenks.
 
 Ouvrez le menu de symbologie avancée (icone rouage dans le menu de choix du mode de discrétisation, voire figure ci-dessous).
 Choisissez le mode de discrétisation que vous souhaitez.
@@ -89,17 +89,17 @@ Choisissez le mode de discrétisation que vous souhaitez.
 
 ### Influence de la palette de couleur
 
-#### Au moyen du jeu de données (jeu de données population, densité, PIB,  de population, et taux de natalités par pays à importer), produisez une carte choroplèthe représentant le taux de natalité par pays.
+#### Au moyen du jeu de données [suivant, contenant le nombre d'habitants par quartier de Paris en 2007 et 2012](data/quartiers_paris.geojson), produisez une carte choroplèthe représentant le taux de changement du nombre d'habitants entre ces deux dates.
 
-*La palette de couleur précédemment utilisée vous parait-elle appropriée? Sinon changez de palette de couleur*
+*La palette de couleur Viridis vous parait-elle appropriée? Sinon changez de palette de couleur*
 
-#### Combinez dans une carte la représentation de la population et la représentation du taux de natalité.
+#### Combinez dans une carte la représentation de la population par quartier en 2012 et la représentation du taux de changement du nombre d'habitants depuis 2007.
 
 *Quelles variables visuelles allez-vous utiliser, et à travers quels symboles pouvez-vous les utiliser?*
 
 ## Représentez des discontinuités spatiales
 
-#### En explorant les différentes approches proposées par MAGRIT, proposez une représentation du PIB par habitant qui mette en lumière les ruptures dans la distribution spatiale de cette variable. Ajoutez cette information à la carte précédente.
+#### Reprenez la carte sur la différents pays du Monde. En explorant les différentes approches proposées par MAGRIT, proposez une représentation du Revenu National Brut par habitant (GNI_POP_2023) qui mette en lumière les ruptures dans la distribution spatiale de cette variable. Ajoutez cette information à la carte précédente.
 
 *Quel canal visuel est utilisé ici?*
 
@@ -163,6 +163,6 @@ Dans le menu à droite, modifiez le mode de vue pour choisir une carte 3D.
 
 *Que pouvez-vous en conclure sur l'utilisation de ce canal visuel?*
 
-#### Proposez le même type de représentation en utilisant le jeu de données [suivant, fourni par l'INSEE, et représentant la population par carreau de 1000km](data/IDF_filosofi.geojson).
+#### Proposez le même type de représentation en utilisant le jeu de données [suivant, fourni par l'INSEE, et représentant la population par carreau d'un km](data/IDF_filosofi.geojson).
 
 *Que pouvez-vous conclure de ces deux cartes?*
