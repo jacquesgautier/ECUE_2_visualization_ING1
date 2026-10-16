@@ -133,7 +133,7 @@ L'objectif de l'interface est de permettre de produire facilement différents ty
 
 ## Création de cartes choroplèthes avec Kepler.gl
 
-#### Au moyen du jeu de données XX (jeu de données population et densité par la région IDF), produisez une carte choroplèthe représentant la densité de population par commune pour la région Île de France.
+#### Au moyen du jeu de données [suivant](data/IDF.geojson), produisez une carte choroplèthe représentant la densité de population par commune pour la région Île de France.
 
 Dans le menu de gauche, dépliez le sous-menu correspondant à la couche créée lors de l'import de vos données. Explorez les paramètres de manière à représenter la densité de population par de la couleur, en utilisant une discrétisation en quantile et une palette de couleur Veridis.
 
@@ -141,7 +141,7 @@ Dans le menu de gauche, dépliez le sous-menu correspondant à la couche créée
 
 ## Création de cartes en cercles proportionnels avec Kepler.gl	
 
-#### Au moyen du jeu de données XX (jeu de données population et densité par la région IDF, sous la forme de centroides), ajoutez à la carte précédente des symboles proportionnels représentant la population par commune.
+#### Au moyen du jeu de données [suivant](data/IDF_points.geojson), ajoutez à la carte précédente des symboles proportionnels représentant la population par commune.
 
 *Sous quelle forme se présentent ce nouveau jeu de données? Que représente sa composante spatiale?*
 
@@ -163,6 +163,6 @@ Dans le menu à droite, modifiez le mode de vue pour choisir une carte 3D.
 
 *Que pouvez-vous en conclure sur l'utilisation de ce canal visuel?*
 
-#### Proposez le même type de représentation en utilisant le jeu de données CC (jeu de données filosofi 1000km).
+#### Proposez le même type de représentation en utilisant le jeu de données [suivant, fourni par l'INSEE, et représentant la population par carreau de 1000km](data/IDF_filosofi.geojson).
 
 *Que pouvez-vous conclure de ces deux cartes?*
