@@ -10,6 +10,14 @@ Le but de cet exercice est d'illustrer plusieurs concepts vus en cours sur la vi
 
 ### Visualiser une distribution statistique
 
+Importez ce jeu de données (donnée feux de forêt Corse). 
+
+#### En vous aidant du catalogue d'approches proposées par Rawgraphs, et du site [data-to-viz](https://www.data-to-viz.com/), proposez trois approches vous permettant de visualiser la distribution statistiques.
+
+#### 
+
+
+
 beeswarm
 
 boxplot
